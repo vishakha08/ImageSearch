@@ -1,0 +1,60 @@
+<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container navbar-left js-imgcontainer">
+			<a class="navbar-brand col-lg-4" href="#"><span class="js-logo">Image
+					Search</span></a>
+			<div class="navbar-form col-md-6" role="search">
+				<div class="input-group">
+					<input type="text" class="form-control js-searchBox"
+						placeholder="Enter Text" id="query" name="query" value="">
+					<div class="input-group-btn">
+						<button type="submit" class="btn btn-default js-searchButton">
+							<span class="glyphicon glyphicon-search"></span>
+						</button>
+					</div>
+				</div>
+				<button type="submit" class="btn btn-default js-searchButton1">Search</button>
+			</div>
+		</div>
+		<div class="container navbar-right js-uploadContainer col-md-4">
+		<button class="btn btn-default js-uploadFormBtn">
+			Upload Image<span class="glyphicon glyphicon-upload"></span>
+		</button>
+		</div>
+	</div>
+</div>
+
+<div class="js-uploadModal"></div>
+
+<div class="alert alert-success js-resultText" role="alert">
+	<button type="button" class="close"
+		onclick="$('.js-resultText').hide()">
+		<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+	</button>
+	<span class="js-displayResult"></span>
+</div>
+<div class="container js-tabContainer">
+	<div class="row js-tabbedviews">
+		<div class="col-lg-12 ">
+			<ul class="nav nav-tabs">
+				<li class="active"><a href="#pane1" data-toggle="tab">Thumbnail
+						View</a></li>
+				<li><a href="#pane2" data-toggle="tab">Photo View</a></li>
+			</ul>
+			<div class="tab-content">
+				<div id="pane1" class="tab-pane active">
+					<div class="row ">
+						<div class="col-lg-12 js-photothumbview"></div>
+					</div>
+				</div>
+				<div id="pane2" class="tab-pane">
+					<div class="row ">
+						<div class="col-lg-12 js-photolistview"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+

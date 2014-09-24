@@ -1,0 +1,17 @@
+<div class="js-photolist">
+	{{#each PhotoCollection}} {{#createRow @index}}
+	<div class="row">
+		{{/createRow}}
+		<div class="col-sm-3 col-md-3 col-lg-3">
+			<img
+				src="http://192.168.35.105:9000/assets/uploads/{{photoSrc}}"
+				name="{{photoTitle}}" class="thumbnail center js-displayImg" data-modelId="{{photoId}}"/>
+			<div>
+				<span class="img_caption truncate">{{photoSrc}}</span>
+			</div>
+		</div>
+		{{#closeRow @index}}
+	</div>
+	{{/closeRow}} {{/each}}
+</div>
+<div class="js-modalView"></div>

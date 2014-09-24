@@ -1,0 +1,89 @@
+@CHARSET "UTF-8";
+.thumbnail {
+	height:200px;
+	width:200px;
+}
+
+.truncate {
+  width: 160px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.img_caption{
+	position:absolute;
+	text-align:center;
+	bottom: 20px;
+	right:20%;
+	padding-top:20px;
+	padding-bottom: 5px;
+	z-index: 10;
+	color:#fff;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+	
+}
+
+.carousel-inner > .item > img{
+	height:500px;
+}
+
+.row{
+	margin-bottom: 30px;
+}
+
+.js-displayPhoto{
+	height:375px;
+	width:525px;
+	border-radius:5px;
+	
+}
+.modal-body{
+	text-align: center;
+}
+
+.js-searchButton1{
+	padding : 5px 5px;
+}
+
+.js-uploadFormBtn{
+	padding: 5px 5px;
+	display: inline-block;
+	float: right;
+}
+
+.js-imgcontainer{
+	width:80%;
+}
+
+.js-uploadContainer{
+	width: auto;
+	margin-top: 8px;
+}
+
+.js-uploadFormBody{
+	text-align: left;
+}
+
+
+.js-textDescption {
+	width: 50%;
+}
+
+.highlight {
+	border: solid 1px red;
+}
+
+.unhighlight {
+	border: solid 1px green;
+}
+
+.js-errText {
+	display: inline-block;
+	margin-left: 5px;
+	color: red;
+}
+
+.tab-content{
+	margin-top: 20px;
+}
